@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(31, 31, 31);
+}
+/* nav style */
+header {
+    padding: 20px 35px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;  
+    background-color: rgb(31, 31, 31);
+    padding: 10px;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 1px 1px 0 #000;
+}
+header h1 a {
+    color: white;
+
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+header nav {
+    margin: 7px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-decoration: none; 
+}
+/* nav style end */
+section {
+    padding: 60px;
+}
+.hero {
+    background-image: url("./images/carbon-fiber.jpg"); 
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.subtitle {
+    color: white;
+    margin: s15vh 15vh 0 0;
+    font-size: 5vh;
+    background-color: rgb(31, 31, 31);
+    padding: 2vh;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 1px 1px 0 #000;
+}
+.about-me {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-me h3 {
+    font-size: 6vh;
+    flex: 1 30%;
+    text-align: end;
+    padding-right: 1vh;
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 1px 1px 0 #000;
+}
+
+.about-text {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    border-left: 3px solid black;
+    padding-left: 3vh;
+    color: white;
+
+}
