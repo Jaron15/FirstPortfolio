@@ -191,5 +191,51 @@ header nav ul li a {
 .work-small div {
     height:50%;
     width: 45%;
+}
 
+.contact-me{
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-me h3 {
+    font-size: 6vh;
+    flex: 1 30%;
+    text-align: end;
+    padding-right: 1vh;
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 1px 1px 0 #000;
+    
+}
+.contact-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    border-left: 3px solid black;
+    padding-left: 3vh;
+    color: white;
+    height:6vh; 
+    justify-content:space-evenly;
+    
+}
+.contact-info ul {
+    display:flex;
+    flex-wrap:wrap;
+    list-style:none;
+    flex-direction:row;
+    
+    
+}
+.contact-info ul li {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-decoration: none;
 }
