@@ -130,38 +130,37 @@ header nav ul li a {
 }
 .work-big {
     height: 50vh;
-    width: 100%;
+    width: 91%;
     background-image: url(./images/surf.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     border: 3px solid white;
     margin: 5px;
 } 
-
-.work-big img {
-    width: 100%;
-    height: 100%;
-    border: 3px solid white;
+.flex-row {
+    display:flex;
+    flex-wrap:wrap;
+    width:100%
+   
 }
 .work-small {
-    height: 50%;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-
+    height: 14vh;
+    width: 45%;
+    background-image: url(./images/Run-Buddy.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid white;
+    margin: 5px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
 }
-.work-small div {
-    width: 50%;
-    padding: 5px;
-    height: 15vh;
-
+.LED-wall {
+    background-image: url(./images/led.jpeg);
 }
-.work-small img {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        border: 3px solid white;
+.calculator {
+    background-image: url(./images/calculator.jpg);
 }
-
-
+.pastel-puzzles {
+    background-image: url(./images/puzzle.png);
+}
