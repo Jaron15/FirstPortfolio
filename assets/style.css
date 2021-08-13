@@ -241,6 +241,10 @@ header nav ul li a {
     font-size: 1.55vw;
     text-decoration: none;
 }
+.contact-info ul li a {
+    text-decoration:none;
+    color:white;
+}
 @media screen and (max-width: 1500px) {
     .work-label{
         width:100%;
